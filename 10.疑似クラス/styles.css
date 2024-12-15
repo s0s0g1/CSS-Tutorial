@@ -10,7 +10,12 @@ button {
   background-color: #FFFFE0
 }
 
-input {
+/* button:hover {
+  width: 52px;
+  background-color: #FFFFA8;
+} */
+
+input{
   height: 24px;
   outline: gray solid 1px;
   border-radius: 5px;
@@ -18,7 +23,17 @@ input {
   border: none;
 }
 
-
+/* input:focus {
+  background-color: #CCFFCC;
+  outline-color: green;
+} */
 /* input要素に疑似クラスfocusのスタイルを適用 */
-
+input:focus {
+  background-color: #CCFFCC;
+  outline-color: green;
+}
 /* button要素に疑似クラスhoverのスタイルを適用 */
+button:hover {
+  background-color: #FFFFA8;
+  width: 52px;
+}
